@@ -1,4 +1,4 @@
-﻿namespace ZooLab.Medicine
+﻿namespace ZooLab.Medicines
 {
     public class Antibiotics: Medicine
     {
