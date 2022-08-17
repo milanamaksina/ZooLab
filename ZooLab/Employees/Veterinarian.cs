@@ -1,16 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ZooLab
+﻿namespace ZooLab.Employees
 {
-    public class ZooKeeper
+    public class Veterinarian: IEmployee
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public string AnimalExperiences { get; set; }
 
         public void AddAnimalExperience(Animal animal)
         {
@@ -27,5 +20,4 @@ namespace ZooLab
             return true;
         }
     }
-
 }
