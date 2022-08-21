@@ -2,9 +2,18 @@
 {
     public class Lion : Mammal
     {
+        public int RequiredSpace = 1000;
+
         public override bool IsFriendlyWith(Animal animal)
         {
-            throw new NotImplementedException();
+            if (animal.GetType() == typeof(Lion))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

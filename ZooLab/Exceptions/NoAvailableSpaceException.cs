@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ZooLab.Exceptions
+﻿namespace ZooLab.Exceptions
 {
-    internal class NoAvailableSpaceException
+    public class NoAvailableSpaceException
     {
     }
 }

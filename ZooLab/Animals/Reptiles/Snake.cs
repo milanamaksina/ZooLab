@@ -1,16 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ZooLab.Animals.Reptiles
+﻿namespace ZooLab.Animals.Reptiles
 {
     public class Snake : Reptile
     {
+        public int RequiredSpace = 2;
+
         public override bool IsFriendlyWith(Animal animal)
         {
-            throw new NotImplementedException();
+            if (animal.GetType() == typeof(Snake))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

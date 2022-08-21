@@ -1,12 +1,11 @@
-﻿using ZooLab.Animals.Mammals;
-using ZooLab.Animals.Reptiles;
+﻿using ZooLab.Animals.Birds;
+using ZooLab.Animals.Mammals;
 
-namespace ZooLab.Animals.Birds
+namespace ZooLab.Animals.Reptiles
 {
-    public class Parrot : Bird
+    public class Turtle : Animal
     {
         public int RequiredSpace = 5;
-        public string FavoriteFood = "Vegetable";
 
         public override bool IsFriendlyWith(Animal animal)
         {
