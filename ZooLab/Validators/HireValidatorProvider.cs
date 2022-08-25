@@ -4,7 +4,7 @@ namespace ZooLab.Validators
 {
     public class HireValidatorProvider
     {
-        public IHireValidator GetIHireValidator(IEmployee employee, Zoo zoo)
+        public IHireValidator GetHireValidator(IEmployee employee)
         {
             if (employee.GetType().Name == typeof(ZooKeeper).Name)
             {

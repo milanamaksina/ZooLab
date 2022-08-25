@@ -6,7 +6,7 @@
 
         public void AddZoo(Zoo zoo)
         {
-
+            _zoos.Add(zoo);
         }
     }
 }

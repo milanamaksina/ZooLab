@@ -14,6 +14,13 @@ namespace ZooLab
         public Zoo BaseZoo { get; set; }
         public int SqureFeet { get; set; }
 
+        public Enclosure(Zoo parentZoo, string name, int squreFeet)
+        {
+            ParentZoo = parentZoo;
+            Name = name;
+            SqureFeet = squreFeet;
+        }
+
         public void AddAnimals(Animal animal)
         {
             if (SqureFeet >= animal.RequiredSpace)
