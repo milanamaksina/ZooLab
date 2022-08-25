@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZooLab", "ZooLab\ZooLab.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zoo.ConsoleApp", "Zoo.ConsoleApp\Zoo.ConsoleApp.csproj", "{70F854AF-8230-44A3-BD82-88CBE1DF6B61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zoo.Tests", "Zoo.Tests\Zoo.Tests.csproj", "{F70278C5-5864-49B2-B8F8-1B50E4C4BFAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{70F854AF-8230-44A3-BD82-88CBE1DF6B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70F854AF-8230-44A3-BD82-88CBE1DF6B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70F854AF-8230-44A3-BD82-88CBE1DF6B61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F70278C5-5864-49B2-B8F8-1B50E4C4BFAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F70278C5-5864-49B2-B8F8-1B50E4C4BFAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F70278C5-5864-49B2-B8F8-1B50E4C4BFAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F70278C5-5864-49B2-B8F8-1B50E4C4BFAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
