@@ -4,6 +4,6 @@ namespace ZooLab.Validators
 {
     public interface IHireValidator
     {
-        void ValidateEmployee(IEmployee employee, Zoo zoo);
+        List<ValidationError> ValidateEmployee(IEmployee employee, Zoo zoo);
     }
 }

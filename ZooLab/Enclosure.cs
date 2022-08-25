@@ -11,7 +11,7 @@ namespace ZooLab
     {
         public string Name { get; set; }
         public List<Animal> Animals { get; set; }
-        public Zoo Zoo { get; set; }
+        public Zoo BaseZoo { get; set; }
         public int SqureFeet { get; set; }
 
         public void AddAnimals(Animal animal)
@@ -26,8 +26,8 @@ namespace ZooLab
                     }
                 }
                 Animals.Add(animal);
-                animal.Id = ParentZoo.StartingId;
-                ParentZoo.StartingId++;
+                animal.Id = BaseZoo.StartingId;
+                BaseZoo.StartingId++;
                 SqureFeet -= animal.RequiredSpace;
             }
             else

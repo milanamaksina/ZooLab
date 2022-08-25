@@ -2,11 +2,7 @@
 
 namespace ZooLab.Validators
 {
-    public abstract class HireValidator : IHireValidator
+    public abstract class HireValidator
     {
-        public void ValidateEmployee(IEmployee employee, Zoo zoo)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
