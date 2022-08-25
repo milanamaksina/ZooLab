@@ -1,6 +1,6 @@
 ﻿namespace ZooLab.Exceptions
 {
-    public class NoAvailableEclosureException
+    public class NoAvailableEclosureException : Exception
     {
     }
 }

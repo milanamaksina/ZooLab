@@ -1,6 +1,6 @@
 ﻿namespace ZooLab.Exceptions
 {
-    public class NoNeededExperienceException
+    public class NoNeededExperienceException: Exception
     {
     }
 }

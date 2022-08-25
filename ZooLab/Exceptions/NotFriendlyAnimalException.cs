@@ -1,6 +1,6 @@
 ﻿namespace ZooLab.Exceptions
 {
-    public class NotFriendlyAnimalException
+    public class NotFriendlyAnimalException : Exception
     {
     }
 }
