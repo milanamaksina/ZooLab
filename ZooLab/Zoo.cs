@@ -4,7 +4,7 @@ using ZooLab.Validators;
 
 namespace ZooLab
 {
-    public class Zoo
+    public class Zoo: ZooApp
     {
         private readonly IConsole zooConsole;
         public Zoo(IConsole console = null)
@@ -178,5 +178,4 @@ namespace ZooLab
         }
     }
 
-}
 }

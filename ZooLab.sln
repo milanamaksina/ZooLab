@@ -5,9 +5,9 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZooLab", "ZooLab\ZooLab.csproj", "{90C98434-16AB-46B2-BF9B-AF944EEF4A2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zoo.ConsoleApp", "Zoo.ConsoleApp\Zoo.ConsoleApp.csproj", "{70F854AF-8230-44A3-BD82-88CBE1DF6B61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zoo.ConsoleApp", "Zoo.ConsoleApp\Zoo.ConsoleApp.csproj", "{70F854AF-8230-44A3-BD82-88CBE1DF6B61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zoo.Tests", "Zoo.Tests\Zoo.Tests.csproj", "{F70278C5-5864-49B2-B8F8-1B50E4C4BFAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zoo.Tests", "Zoo.Tests\Zoo.Tests.csproj", "{F70278C5-5864-49B2-B8F8-1B50E4C4BFAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

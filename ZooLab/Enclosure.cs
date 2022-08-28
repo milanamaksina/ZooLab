@@ -16,7 +16,7 @@ namespace ZooLab
 
         public Enclosure(Zoo parentZoo, string name, int squreFeet)
         {
-            ParentZoo = parentZoo;
+            BaseZoo = parentZoo;
             Name = name;
             SqureFeet = squreFeet;
         }

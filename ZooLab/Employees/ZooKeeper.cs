@@ -52,7 +52,7 @@ namespace ZooLab.Employees
                             animal.Feed(availableFood);
                             FeedTime feedTime = new();
                             feedTime.FeedTimes = DateTime.Now;
-                            zooConsole?.WriteLine($"{animal.GetType().Name} was fed by {this.FirstName} {this.LastName} at {feedTime.TimeToFeed}");
+                            zooConsole?.WriteLine($"{animal.GetType().Name} was fed by {this.FirstName} {this.LastName} at {feedTime.FeedTimes}");
                             feedTime.FeedByZooKeeper = this;
                             animal.FeedTimes.Add(feedTime);
                             return true;
